@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    
+}
+
+.container{
+        background:url(arkaplan.jpg);
+        height: 100vh;
+        background-size:100% 100% ;
+
+}
+.container .navbar{
+    width: 100% ;
+    height: 65px;
+    background:rgb(245, 213, 237);
+}
+.navbar .Aylin{
+    display:inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+
+}
+.navbar .Aylin a{
+    text-decoration:none;
+    font-size: 25px;
+    font-family:sans-serif;
+    color: darkviolet;
+
+}
+.navbar ul{
+    float: right;
+    margin-right:20px;
+}
+
+.navbar ul li{
+    list-style:none;
+    display:inline-block;
+    margin:0 10px;
+    line-height:65px;
+}
+
+.navbar ul li a{
+    color: darkviolet;
+    text-decoration:none;
+    font-size:20px;
+    padding: 6px 13px;
+    font-family:Roboto;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background-color: rgb(90, 172, 205);
+    border-radius:2px;
+}
