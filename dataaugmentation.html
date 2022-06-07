@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Augmentation</title>
+    <link rel="stylesheet" href="css/style.css"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" 
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@200&family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="social"> 
+      <div id="font"> Büşra Aylin MERCAN |<span>Kişisel Web Sitesi </span> </div>
+        <i class="fas fa-search"></i>
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-github"></i>
+        
+    </div>
+    <div id="container">
+<header>
+    <img id="headerResim" src="img/bilg.jpg" alt="bilgisayar">
+    <div id="centered">Bilgisayar Mühendisi</div>
+</header>
+   
+<section>
+    <nav>
+    <ul>
+        <li><a href="index.html"><i class="fas fa-home"></i>Anasayfa</a></li>
+        <li><a href="hakkimda.html"><i class="fas fa-user"></i>Hakkımda</a></li>
+        <li><a href="galeri.html"><i class="fas fa-images"></i>Galeri</a></li>
+        <li><a href="iletisim.html"><i class="fas fa-address-book"></i>İletişim</a></li>
+        
+    </ul>
+
+    </nav>
+    <main>
+        <h1>DATA AUGMENTİON</h1>
+        <img id="hakkimdaRSM" src="img/aug.webp" alt="">
+      <p>
+        Data augmentation is the process of increasing the amount and diversity of data. We do not collect new data, rather we transform the already present data. I will be talking specifically about image data augmentation in this article.
+        So we will look at various ways to transform and augment the image data.
+        This article covers the following articles –
+        
+        Need for data augmentation
+        Operations in data augmentation
+        Data augmentation in Keras
+        Data augmentation using Augmentor
+        1. Need for data augmentation
+        Data augmentation is an integral process in deep learning, as in deep learning we need large amounts of data and in some cases it is not feasible to collect thousands or millions of images, so data augmentation comes to the rescue.
+        It helps us to increase the size of the dataset and introduce variability in the dataset.
+        <br>
+        2. Operations in data augmentation
+        The most commonly used operations are-
+        <br>
+        1.Rotation <br>
+        2.Shearing <br>
+        3.Zooming <br>
+        4.Cropping <br>
+        5.Flipping <br>
+        6.Changing the brightness level <br>
+        Now we will look at all these operations in detail. I will also provide the code for data augmentation later in the article.
+        
+        The original image that I will use for illustration <br>
+        Rotation <br>
+Rotation operation as the name suggests, just rotates the image by a certain specified degree.
+In the example below, I specified the rotation degree as 40. <br>
+Shearing <br>
+* Shearing is also used to transform the orientation of the image. <br>
+Zooming <br>
+* Zooming operation allows us to either zoom in or zoom out. <br>
+Cropping <br>
+* Cropping allows us to crop the image or select a particular area from an image. <br> 
+Flipping <br>
+
+* Flipping allows us to flip the orientation of the image. We can use horizontal or vertical flip.
+You should use this feature
+ carefully as there will be scenarios 
+ where this operation might not make much sense e.g. 
+ suppose you are designing a facial recognition system, 
+ then it is highly unlikely that a person will stand upside 
+ down in front of a camera, so you can avoid using the vertical flip operation.
+ <br> 
+ Changing the brightness level <br>
+This feature helps us to combat illumination changes.You can encounter a scenario where most of your dataset comprises of images having a similar brightness level e.g. collecting the images of employees entering the office, by augmenting the images we make sure that our model is robust and is able to detect the person even in different surroundings.
+<br>
+
+      </p>
+
+    </main>
+</section>
+       <footer> Tüm Hakları Saklıdır &copy; | 2022 </footer>
+    </div>
+</body>
+</html>

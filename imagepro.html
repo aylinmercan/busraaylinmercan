@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Büşra Aylin Mercan</title>
+    <link rel="stylesheet" href="css/style.css"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" 
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@200&family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="social"> 
+      <div id="font"> Büşra Aylin MERCAN |<span>Kişisel Web Sitesi </span> </div>
+        <i class="fas fa-search"></i>
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-github"></i>
+        
+    </div>
+    <div id="container">
+<header>
+    <img id="headerResim" src="img/bilg.jpg" alt="bilgisayar">
+    <div id="centered">Bilgisayar Mühendisi</div>
+</header>
+   
+<section>
+    <nav>
+    <ul>
+        <li><a href="index.html"><i class="fas fa-home"></i>Anasayfa</a></li>
+        <li><a href="hakkimda.html"><i class="fas fa-user"></i>Hakkımda</a></li>
+        <li><a href="galeri.html"><i class="fas fa-images"></i>Galeri</a></li>
+        <li><a href="iletisim.html"><i class="fas fa-address-book"></i>İletişim</a></li>
+        
+    </ul>
+
+    </nav>
+    <main>
+        <h1>İMAGE PROJESSING</h1>
+        <img id="hakkimdaRSM" src="img/imgprojess.jpg" alt="">
+        <p>
+            Digital Image Processing means processing digital image by means of a digital computer. We can also say that it is a use of computer algorithms, in order to get enhanced image either to extract some useful information. 
+ <br>
+
+Image processing mainly include the following steps: <br>
+1.Importing the image via image acquisition tools; <br>
+2.Analysing and manipulating the image; <br>
+3.Output in which result can be altered image or a report which is based on analysing that image.
+<br>
+What is an image? <br>
+An image is defined as a two-dimensional function,F(x,y), where x and y are spatial coordinates, and the amplitude of F at any pair of coordinates (x,y) is called the intensity of that image at that point. When x,y, and amplitude values of F are finite, we call it a digital image. 
+In other words, an image can be defined by a two-dimensional array specifically arranged in rows and columns. 
+Digital Image is composed of a finite number of elements, each of which elements have a particular value at a particular location.These elements are referred to as picture elements,image elements,and pixels.A Pixel is most widely used to denote the elements of a Digital Image.
+
+Types of an image <br>
+BINARY IMAGE
+<br> * The binary image as its name suggests, contain only two pixel elements i.e 0 & 1,where 0 refers to black and 1 refers to white. This image is also known as Monochrome.
+BLACK AND WHITE IMAGE
+<br> * The image which consist of only black and white color is called BLACK AND WHITE IMAGE.
+8 bit COLOR FORMAT <br>
+* It is the most famous image format.It has 256 different shades of colors in it and commonly known as Grayscale Image. In this format, 0 stands for Black, and 255 stands for white, and 127 stands for gray.
+16 bit COLOR FORMAT
+<br> * It is a color image format. It has 65,536 different colors in it.It is also known as High Color Format. In this format the distribution of color is not as same as Grayscale image.
+A 16 bit format is actually divided into three further formats which are Red, Green and Blue. That famous RGB format. 
+ 
+<br>
+Image as a Matrix <br>
+As we know, images are represented in rows and columns we have the following syntax in which images are represented: 
+ <br>
+
+
+
+The right side of this equation is digital image by definition. Every element of this matrix is called image element , picture element , or pixel. 
+ 
+
+DIGITAL IMAGE REPRESENTATION IN MATLAB: <br>
+ 
+
+
+
+In MATLAB the start index is from 1 instead of 0. Therefore, f(1,1) = f(0,0). 
+henceforth the two representation of image are identical, except for the shift in origin. 
+In MATLAB, matrices are stored in a variable i.e X,x,input_image , and so on. The variables must be a letter as same as other programming languages. 
+<br>
+ 
+
+PHASES OF IMAGE: <br>
+1.ACQUISITION– It could be as simple as being given an image which is in digital form. The main work involves: 
+a) Scaling <br>
+b) Color conversion(RGB to Gray or vice-versa) <br>
+2.IMAGE ENHANCEMENT
+<br> * It is amongst the simplest and most appealing in areas of Image Processing it is also used to extract some hidden details from an image and is subjective. 
+<br> 3.IMAGE RESTORATION
+<br> * It also deals with appealing of an image but it is objective(Restoration is based on mathematical or probabilistic model or image degradation). 
+4.COLOR IMAGE PROCESSING
+<br> * It deals with pseudocolor and full color image processing color models are applicable to digital image processing. 
+5.WAVELETS AND MULTI-RESOLUTION PROCESSING
+<br> * It is foundation of representing images in various degrees. 
+<br> 6.IMAGE COMPRESSION-It involves in developing some functions to perform this operation. It mainly deals with image size or resolution. 
+<br> 7.MORPHOLOGICAL PROCESSING-It deals with tools for extracting image components that are useful in the representation & description of shape. 
+<br>  8.SEGMENTATION PROCEDURE-It includes partitioning an image into its constituent parts or objects. Autonomous segmentation is the most difficult task in Image Processing. 
+ <br> 9.REPRESENTATION & DESCRIPTION-It follows output of segmentation stage, choosing a representation is only the part of solution for transforming raw data into processed data. 
+ <br> 10.OBJECT DETECTION AND RECOGNITION-It is a process that assigns a label to an object based on its descriptor. 
+        </p>
+
+
+
+    </main>
+</section>
+       <footer> Tüm Hakları Saklıdır &copy; | 2022 </footer>
+    </div>
+</body>
+</html>
