@@ -9,9 +9,9 @@ $konu        = "Iletisim Formu";
 $tarih        = date('Y-m-d');
 $ip_adresi    = $_SERVER['REMOTE_ADDR'];
  
-if(($ad=="") or ($tel =="") or ($email=="") or ($mesaj=="") or ($soyad=="")){
+if(($ad=="") or ($email=="") or ($mesaj=="") or ($soyad=="")){
  
-echo "<center>Lutfen Ad Soyad, Telefon, E-Mail ve Mesaj alanlarini bos birakmayiniz.<br><a href=index.php>Geri don</a></center>";
+echo "<center>Lutfen Ad Soyad, E-Mail ve Mesaj alanlarini bos birakmayiniz.<br><a href=index.php>Geri don</a></center>";
  
 }
 else
