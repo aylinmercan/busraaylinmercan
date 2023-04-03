@@ -1,4 +1,4 @@
-Merhaba ben Büşra Aylin Mercan. Bilgisayar Mühendisliği 2.sınıf öğrencisiyim. 
+Merhaba ben Büşra Aylin Mercan. Bilgisayar Mühendisliği 3.sınıf öğrencisiyim. 
 İnternet Tabanlı Programlama ödevi için web sitesi hazırlama kararı aldım.
 Html/Css/Js/Php kullanarak bir web sitesi hazırladım.
 İlk önce kendi web sitemi hazırlıyordum ama daha sonra babamın işi için web sitesi hazırlama kararı aldım.
